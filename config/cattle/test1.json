@@ -1,0 +1,20 @@
+{
+    "address": ":9291",
+    "database": {
+        "mongodb": "172.31.174.96:27017"
+    },
+    "authentication" : {
+        "secret" : "AES256-Cattle-123400"
+    },
+    "etcd": {
+        "ca": "",
+        "address": "http://172.31.174.96:3379",
+        "cert": "",
+        "key": ""
+    },
+    "log": {
+        "level": "info",
+        "path": ""
+    },
+    "release": "beta"
+}
